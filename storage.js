@@ -1,7 +1,7 @@
 // storage.js
 // Handles local storage persistence
 
-const STORAGE_KEY = 'antigravity_secure_notes';
+const STORAGE_KEY = 'secure_notes';
 
 export function saveNotes(notes) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(notes));

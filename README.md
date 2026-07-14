@@ -1,4 +1,4 @@
-# AntiGravity Secure Notes Analyzer
+# Secure Notes Analyzer
 
 A futuristic, zero-gravity themed web application that securely encrypts and decrypts notes directly in the browser using the Web Crypto API.
 
