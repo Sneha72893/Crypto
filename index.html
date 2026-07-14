@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AntiGravity Secure Notes Analyzer - Futuristic Zero Gravity Interface">
+    <title>AntiGravity Secure Notes Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="space-background"></div>
+    
+    <!-- Central Glowing Vault -->
+    <div id="vault">
+        <div class="vault-core"></div>
+        <div class="vault-ring ring-1"></div>
+        <div class="vault-ring ring-2"></div>
+        <div class="vault-ring ring-3"></div>
+        <div class="vault-label">CORE VAULT</div>
+    </div>
+    
+    <!-- Notes Orbiting Container -->
+    <div id="orbit-container"></div>
+    
+    <!-- UI Controls -->
+    <div id="ui-panel">
+        <h1>AntiGravity Secure Notes Analyzer</h1>
+        <div class="control-group">
+            <div class="slider-header">
+                <label for="gravity-slider">Gravity Pull Focus</label>
+                <span id="gravity-value">50%</span>
+            </div>
+            <input type="range" id="gravity-slider" min="0" max="100" value="50">
+            <div class="slider-labels">
+                <span>Free Float</span>
+                <span>Max Security</span>
+            </div>
+        </div>
+        <div class="legend">
+            <div class="legend-item"><span class="color-box aes"></span> AES Encryption</div>
+            <div class="legend-item"><span class="color-box rsa"></span> RSA Encryption</div>
+        </div>
+        <button id="btn-create-note" class="primary-btn">CREATE SECURE NOTE</button>
+    </div>
+
+    <!-- Modals Overlay -->
+    <div id="modal-overlay" class="hidden">
+        <!-- Create Note Modal -->
+        <div id="create-modal" class="modal hidden">
+            <h2>Create Secure Note</h2>
+            <div class="input-group">
+                <label for="note-text">Secret Message</label>
+                <textarea id="note-text" placeholder="Enter sensitive data here..."></textarea>
+            </div>
+            <div class="input-group">
+                <label for="note-password">Encryption Password</label>
+                <input type="password" id="note-password" placeholder="Enter strong password">
+            </div>
+            <div class="modal-actions">
+                <button class="cancel-btn" onclick="closeModals()">Cancel</button>
+                <button id="btn-submit-create" class="submit-btn">Encrypt & Inject</button>
+            </div>
+        </div>
+
+        <!-- Decrypt Note Modal -->
+        <div id="decrypt-modal" class="modal hidden">
+            <h2>Decrypt Note <span id="decrypt-note-id"></span></h2>
+            <div id="decrypt-input-section">
+                <div class="input-group">
+                    <label for="decrypt-password">Decryption Password</label>
+                    <input type="password" id="decrypt-password" placeholder="Enter password to unlock">
+                </div>
+                <div class="modal-actions">
+                    <button class="cancel-btn" onclick="closeModals()">Cancel</button>
+                    <button id="btn-submit-decrypt" class="submit-btn">Decrypt</button>
+                </div>
+            </div>
+            <div id="decrypt-result-section" class="hidden">
+                <div class="matrix-container" id="matrix-text"></div>
+                <div class="modal-actions">
+                    <button class="submit-btn" onclick="closeModals()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toasts -->
+    <div id="toast-container"></div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
