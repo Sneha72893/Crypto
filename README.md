@@ -10,7 +10,7 @@ A futuristic, zero-gravity themed web application that securely encrypts and dec
 - **Matrix Decryption**: A sleek character-scramble animation reveals your decrypted secrets.
 - **100% Client-Side**: No backend servers involved. Your data never leaves your computer.
 
-##  Technologies Used
+##   Technologies Used
 
 - Vanilla HTML5
 - CSS3 (Glassmorphism, 3D Transforms, Keyframe Animations)
