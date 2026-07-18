@@ -2,6 +2,10 @@
 
 A futuristic, zero-gravity themed web application that securely encrypts and decrypts notes directly in the browser using the Web Crypto API.
 
+## 🚀 Live Demo
+
+[Experience the application live here](https://crypto-seven-woad.vercel.app)
+
 ##  Features
 
 - **Real Cryptography**: Utilizes the native browser `window.crypto.subtle` API for AES-GCM 256-bit encryption.
