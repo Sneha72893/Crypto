@@ -2,7 +2,7 @@
 
 A futuristic, zero-gravity themed web application that securely encrypts and decrypts notes directly in the browser using the Web Crypto API.
 
-## 🚀 Live Demo
+##  Live Demo
 
 [Experience the application live here](https://crypto-seven-woad.vercel.app)
 
@@ -20,7 +20,7 @@ A futuristic, zero-gravity themed web application that securely encrypts and dec
 - CSS3 (Glassmorphism, 3D Transforms, Keyframe Animations)
 - Vanilla Javascript (ES6 Modules, Web Crypto API, Web Audio API)
 
-## 💻 Local Development (Optional)
+##  Local Development (Optional)
 
 Since this project is already deployed on Vercel, you can simply use the live demo above. 
 If you want to modify the code locally, no build step or backend server is required:
