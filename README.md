@@ -20,16 +20,16 @@ A futuristic, zero-gravity themed web application that securely encrypts and dec
 - CSS3 (Glassmorphism, 3D Transforms, Keyframe Animations)
 - Vanilla Javascript (ES6 Modules, Web Crypto API, Web Audio API)
 
-##  How to Run
+## 💻 Local Development (Optional)
 
-Since this project relies entirely on client-side web technologies, no build step or backend server is required.
+Since this project is already deployed on Vercel, you can simply use the live demo above. 
+If you want to modify the code locally, no build step or backend server is required:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sneha72893/Crypto.git
    ```
-2. Open `index.html` in any modern web browser (Chrome, Edge, Firefox, Safari).
-3. OR use an extension like VS Code Live Server to serve the directory.
+2. Open `index.html` in any modern web browser or use an extension like VS Code Live Server.
 
 ##  Security Details
 
